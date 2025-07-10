@@ -1,0 +1,19 @@
+# Ignore virtual environments
+venv/
+venv-ai/
+.env/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# VSCode settings (optional)
+.vscode/
+
+# Jupyter Notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# MacOS / Windows system files (optional)
+.DS_Store
+Thumbs.db
