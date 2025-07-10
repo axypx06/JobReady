@@ -10,6 +10,9 @@ from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from dotenv import load_dotenv
+load_dotenv()
+import os
 
 
 # Utility Functions
@@ -410,10 +413,7 @@ def main():
     st.set_page_config(page_title="Job Application Assistant - JobReady 📝", layout="wide")
 
     # API key input
-    api_key = st.sidebar.text_input("Enter OpenAI API Key 🗝️", type="password")
-    if not api_key:
-        st.warning("🔑 Please enter your OpenAI API key to continue.")
-        return
+    api_key = os.getenv("OPENAI_API_KEY")
 
     st.title("Job Application Assistant - JobReady 🚀")
     st.markdown("""
