@@ -35,11 +35,17 @@ JobReady is an AI-driven web application that helps job seekers tailor their res
 
 ## 🛠️ Tech Stack
 
-| Component | Technology        |
+| Component | Technology        
 |----------|--------------------|
 | UI       | Streamlit          |
 | Backend  | Python             |
 | AI Model | OpenAI GPT-4 API   |
 | VCS      | Git, GitHub        |
+
+https://github.com/user-attachments/assets/b1ea51c7-4de1-4beb-b093-7787bc75237b
+
+
+
+
 
 
