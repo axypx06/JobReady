@@ -4,3 +4,4 @@ python-docx
 pandas
 plotly
 reportlab
+python-dotenv
